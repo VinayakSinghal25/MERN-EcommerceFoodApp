@@ -1,0 +1,12 @@
+/* Correct order of @import statements */
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+@import url("https://uilight.netlify.app/main.css");
+
+/* Followed by other CSS rules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional imports or CSS rules */
+/*@import url("./styles/utility.css");*/
+
